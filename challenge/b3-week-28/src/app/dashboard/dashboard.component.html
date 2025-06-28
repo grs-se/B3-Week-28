@@ -1,0 +1,7 @@
+<ul>
+  @for (p of products; track p) {
+    <li>
+      <a [routerLink]="['/product', p]">Product {{ p }}</a>
+    </li>
+  }
+</ul>
