@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --configuration=production --output-path ../../docs --base-href /B3-Week-28/ && mv ../../docs/browser/* ../../docs/ && rmdir ../../docs/browser",
+    "build": "ng build --configuration=production --output-path=../../docs --base-href=/B3-Week-28/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
